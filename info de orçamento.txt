@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Sustainability Work</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #2F4F4F; /* Olive Green */
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        section {
+            padding: 20px 0;
+        }
+        .section-title {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .form-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input[type="text"], input[type="number"], input[type="tel"] {
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        input[type="submit"] {
+            background-color: #556B2F; /* Moss Green */
+            color: #fff;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        input[type="submit"]:hover {
+            background-color: #6B8E23;
+        }
+        footer {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Sustainability Work</h1>
+    </header>
+    <div class="container">
+        <section>
+            <div class="section-title">
+                <h2>About</h2>
+            </div>
+            <p>I work with sustainability in the sale of solar panels for businesses and homes. My goal is to promote the use of clean and renewable energy, helping to reduce energy costs and environmental impact.</p>
+        </section>
+        <section>
+            <div class="section-title">
+                <h2>Request a Quote</h2>
+            </div>
+            <div class="form-container">
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="cpf">CPF:</label>
+                    <input type="text" id="cpf" name="cpf" required>
+
+                    <label for="spending">Monthly energy spending:</label>
+                    <input type="number" id="spending" name="spending" required>
+
+                    <label for="roof">Roof type:</label>
+                    <input type="text" id="roof" name="roof" required>
+
+                    <label for="phone">Phone number:</label>
+                    <input type="tel" id="phone" name="phone" required>
+
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 My Sustainability Work</p>
+    </footer>
+</body>
+</html>
